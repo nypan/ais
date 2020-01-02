@@ -41,7 +41,8 @@ namespace AIS.Client
 
         static void Main(string[] args)
         {
-            Run();
+            UDPListener.StartListener(10110);
+            //Run();
         }
     }
 }
